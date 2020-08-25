@@ -22,4 +22,10 @@ fs.readFile("./texto.txt", function(err, data){
 })*/
 
 //El modulo http me permite generar un servidor
-const http = require("http");
+//Guardo la funcionalidad en una constante http 
+const http = require('http');
+
+http.createServer(function (req, res){
+    res.write('<h1>Hola mundo desde Node Js</h1>');
+    res.end();
+}).listen(3000);
