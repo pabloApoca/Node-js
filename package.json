@@ -1,27 +1,27 @@
 {
-  "name": "node",
-  "version": "0.0.1",
-  "description": "Una futura Api Rest",
+  "name": "Node-js",
+  "version": "1.0.0",
+  "description": "Un servidor con REST API usando:\r  Node Js.\r  Postman.\r  Visual studio code.",
   "main": "index.js",
   "dependencies": {
     "colors": "^1.4.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.0",
+    "underscore": "^1.10.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
   "scripts": {
-    "start": "node index.js",
-    "desarrollo": "node index.js"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pabloApoca/Node-js.git"
   },
-  "keywords": [
-    "nodejs",
-    "pablolopez",
-    "unlapablolopez"
-  ],
-  "author": "Pablo Martin Lopez",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pabloApoca/Node-js/issues"
